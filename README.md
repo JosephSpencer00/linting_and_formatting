@@ -29,7 +29,7 @@ Bandit: Failed with a warning for a hardcoded password.
 Warning: Detected a possible hardcoded password: 123456.
 ## Bandit Warning Handling
 To temporarily bypass the Bandit warning for testing purposes, the following comment was added to formatted.py:
-# nosec
+\# nosec
 This instructs Bandit to ignore the warning related to the hardcoded password in the code.
 ## Final Code Differences
 Key Changes in formatted.py:
