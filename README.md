@@ -16,10 +16,14 @@ The formatting tools automatically adjust whitespace, code structure, and style 
 A .pre-commit-config.yaml file was created to set up pre-commit hooks that only affect the formatted.py file.
 The hooks are configured to run only when changes are made to formatted.py, ensuring efficient use of resources.
 ## Hook Setup
-Black: Automatically formats code to adhere to PEP 8 standards.
-Ruff: Lints the code, catching various coding issues and style violations.
-Mypy: Type checks the code for correctness.
-Bandit: Analyzes code for security vulnerabilities.
+### Black: 
+Automatically formats code to adhere to PEP 8 standards.
+### Ruff: 
+Lints the code, catching various coding issues and style violations.
+### Mypy: 
+Type checks the code for correctness.
+### Bandit: 
+Analyzes code for security vulnerabilities.
 ## Initial Run Results
 Upon the first run of the pre-commit hooks:
 Black: Passed (formatting changes made).
